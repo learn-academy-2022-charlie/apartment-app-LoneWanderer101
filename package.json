@@ -1,0 +1,33 @@
+
+   
+{
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@rails/activestorage": "^6.1.5",
+    "@rails/ujs": "^6.1.5",
+    "@rails/webpacker": "5.4.3",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.0",
+    "react-test-renderer": "^18.0.0",
+    "react_ujs": "^2.6.2",
+    "reactstrap": "^9.0.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|gif|ttf|woff|woff2)$": "identity-obj-proxy"
+    }
+  }
+}
