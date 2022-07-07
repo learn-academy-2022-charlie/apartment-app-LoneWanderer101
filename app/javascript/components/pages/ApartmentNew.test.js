@@ -17,6 +17,6 @@ describe("When ApartmentNew renders", () => {
   it("displays a heading", () => {
     const apartmentNew = shallow(<ApartmentNew />)
     const apartmentNewHeading = apartmentNew.find("h3")
-    expect(apartmentNewHeading.text()).toEqual("This Should Fail")
+    expect(apartmentNewHeading.text()).toEqual("ApartmentNew")
   })
 })

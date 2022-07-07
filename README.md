@@ -206,3 +206,5 @@ RSpec.describe "Apartments", type: :request do
   end
 end
 ```
+FOOTER Info
+https://www.bootstrapdash.com/bootstrap-footer-examples/

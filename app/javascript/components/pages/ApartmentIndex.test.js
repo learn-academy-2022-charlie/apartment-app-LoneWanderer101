@@ -17,6 +17,6 @@ describe("When ApartmentIndex renders", () => {
   it("displays a heading", () => {
     const apartmentIndex = shallow(<ApartmentIndex />)
     const apartmentIndexHeading = apartmentIndex.find("h3")
-    expect(apartmentIndexHeading.text()).toEqual("This Should Fail")
+    expect(apartmentIndexHeading.text()).toEqual("ApartmentIndex")
   })
 })
