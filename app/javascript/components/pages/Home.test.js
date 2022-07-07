@@ -18,6 +18,6 @@ describe("When Home renders", () => {
     const home = shallow(<Home />)
     const homeHeading = home.find("h3")
     console.log("HOME", homeHeading.debug());
-    expect(homeHeading.text()).toEqual("This Should Fail")
+    expect(homeHeading.text()).toEqual("Welcome to your Apartment App!")
   })
 })
